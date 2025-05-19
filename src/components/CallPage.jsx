@@ -3,7 +3,7 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 
-const URL_WEB_SOCKET = "ws://localhost:8090/ws";
+const URL_WEB_SOCKET = "ws://18.199.85.17:8090/ws";
 
 let localStream;
 let localPeerConnection;
